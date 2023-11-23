@@ -1,0 +1,151 @@
+.immg {
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+    margin-top: 90px;
+}
+
+.immg>img {
+    width: 90%;
+}
+
+.container1 {
+    display: flex;
+    margin: auto;
+}
+
+.container1 {
+    justify-content: space-around;
+}
+
+#container2 {
+    margin-top: 160px;
+    right: 50px;
+    top: 180px;
+    color: black;
+    font-size: 60px;
+}
+
+.content {
+    font-size: 30px;
+    text-align: center;
+}
+
+#pp {
+    font-size: 90px;
+    border-bottom: 2px solid black;
+}
+
+.down {
+    margin-top: 290px;
+    margin-bottom: 240px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: black;
+}
+
+.downpart2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.down h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.down .down-content h2 {
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.down .down-content {
+    display: block;
+}
+
+.down p {
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.down .down-content .down1 {
+    font-weight: bold;
+    font-size: 22px;
+    color: #000066;
+    font-family: sans-serif;
+}
+
+
+/*#container table
+			{
+				margin-top: 200px;
+				background-color: white;
+			}
+			#container table th
+			{
+				font-weight: bold;
+				font-size: 24px;
+			}
+			#container table td
+			{
+				font-size: 16px;
+				font-family: sans-serif;
+				font-weight: bold;
+			}*/
+
+@media (max-width: 704px) {
+    .immg {
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 100px;
+    }
+    .immg>img {
+        width: 100%;
+        height: 200px;
+    }
+    .container1 {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    #container2 {
+        margin-top: 80px;
+        margin-left: 40px;
+        color: black;
+        font-size: 60px;
+    }
+    .content {
+        font-size: 30px;
+        text-align: center;
+    }
+    #pp {
+        font-size: 60px;
+        border-bottom: 2px solid black;
+    }
+    .down {
+        margin-top: 360px;
+    }
+    .down #contact {
+        margin-top: -100px;
+    }
+    .downpart2 {
+        flex-direction: column;
+        margin-top: -10px;
+    }
+    .down h1 {
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+    .down .down-content h2 {
+        font-size: 28px;
+    }
+    .down .down-content .down1 {
+        font-size: 17px;
+        color: #3c40c6;
+    }
+    .down p {
+        font-size: 20px;
+    }
+}

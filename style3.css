@@ -1,0 +1,222 @@
+body{
+			background-image: url(viber.png);
+			background-position: center;
+			
+			background-size: cover;
+			font-family: sans-serif;
+			margin-top: 40px;
+
+		}
+		.regfrom{
+			width: 760px;
+			background-color: rgb(0,0,0,0.8);
+			margin:auto;
+			color:white;
+			padding: 10px 0px 10px 0px;
+			text-align:center;
+			border-radius: 15px 15px 0px 0px;
+		}
+		.main{
+			background-color: rgb(0,0,0,0.8);
+			width: 760px;
+			margin:auto;
+		}
+		form{
+			padding: 10px;
+		}
+		.name{
+			margin-left: 25px;
+			margin-top: 10px;
+			width: 125px;
+			color: white;
+			font-size: 20px;
+			font-weight: 700px;
+		}
+		.firstname{
+			position: relative;
+			width: 200px;
+			left:180px;
+			top:-44px;
+			line-height: 35px;
+			border-radius: 6px;
+			padding: 0 22px;
+			font-size: 17px;
+		}
+		
+		.main .name1
+		{
+			margin-bottom: -18px;
+		}
+		.address{
+			position: relative;
+			left:180px;
+			top:-50px;
+			
+			width: 250px;
+			height: 40px;
+			border-radius: 6px;
+			padding: 0 22px;
+			font-size: 16px;
+			color:#555;
+		}
+
+		.phone{
+			position: relative;
+			left:180px;
+			top:-50px;
+			line-height: 35px;
+			width: 200px;
+			border-radius: 6px;
+			padding: 0 22px;
+			font-size: 16px;
+			color:#555;
+
+		}
+		/*.email{
+			position: relative;
+			left:200px;
+			top:-37px;
+			line-height: 40px;
+			width: 200px;
+			border-radius: 6px;
+			padding: 0 22px;
+			font-size: 16px;
+			color:#555;
+		}*/
+		.date_of_birth{
+			position: relative;
+			left:180px;
+			top:-50px;
+			line-height: 35px;
+			width: 200px;
+			border-radius: 6px;
+			padding: 0 22px;
+			font-size: 17px;
+			color:#555;
+		}
+		.Citizenship_no{
+				position: relative;
+			left:180px;
+			top:-60px;
+			line-height: 35px;
+			width: 200px;
+			border-radius: 6px;
+			padding: 0 22px;
+			font-size: 17px;
+			color:#555;
+		}
+		.password{
+			position: relative;
+			left:180px;
+			top:-50px;
+			line-height: 35px;
+			width: 200px;
+			border-radius: 6px;
+			padding: 0 22px;
+			font-size: 17px;
+			color:#555;
+
+		}
+		button{
+			background-color: #3BAF9F;
+			display: block;
+			margin:20px 0px 0px 20px;
+			text-align: center;
+			border-radius: 22px;
+			border:2px solid #366473;
+			padding: 12px 50px;
+			margin-top: -25px;
+			outline: none;
+			color: white;
+			cursor: pointer;
+			transition: 0.25px;
+			font-size: 20px;
+			font-weight: bold;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		button:hover{
+			background-color: blue;
+		}
+		
+
+
+
+
+
+
+
+@media  (max-width: 704px)
+{
+
+	.regfrom
+	{
+		font-size: 10px;
+		width: 420px;	
+	margin-left: -6px;
+	}
+	.main
+	{
+		width: 420px;
+		margin-left: -6px;
+	}
+	.name
+	{
+		font-size: 12px;
+		margin-left: 10px;
+		margin-top: -10px;
+	}
+	input[type=text]	{
+		width: 160px;
+		line-height: 30px;
+		margin-left: -58px;
+
+
+	}
+	.firstname
+	{
+		margin-right: 0px;
+		margin-top: 16px;
+	}
+	
+	.address
+	{
+		margin-top: 15px;
+			margin-left: -58px;
+		width: 200px;
+		line-height: 9px;
+	}
+	.phone
+	{
+		width: 160px;
+		line-height: 30px;
+		margin-left: -58px;
+		margin-top: 10px;
+	}
+	.date_of_birth
+	{
+		width: 160px;		line-height: 30px;
+		margin-left: -58px;
+		margin-top: 7px;
+	}
+	.Citizenship_no
+	{
+		width: 160px;
+		line-height: 30px;
+		margin-left: -58px;
+		margin-top: 24px;
+	}
+	.password
+	{
+		width: 160px;
+		line-height: 30px;
+		margin-left: -58px;
+		margin-top: 7px;
+	}
+	button
+	{
+		padding: 10px 18px;
+		font-size: 16px
+	}
+	
+}

@@ -1,0 +1,248 @@
+*
+			{
+				box-sizing: border-box;
+			}
+
+body
+			{
+				margin:0;
+				padding: 0;
+				background: linear-gradient(to right, white ,white, #E0C3FC);
+				/*background-color: #FFDEE9;
+				background-color: #8EC5FC;
+				background-color: #8EC5FC;*/
+				 /*background: linear-gradient(to right, white ,white, #9999ff);*/
+				/*background-image: linear-gradient(62deg, white 55%,#8EC5FC 0%, #E0C3FC 20% );*/
+
+			}
+
+
+
+			
+
+			.tbl2
+			{
+				margin-top: 40px;
+				margin-left: 190px;
+				 border:4px solid black;
+				 width: 75%;
+				 height: auto;
+				 background-color: white;
+				 border-radius: 22px;
+
+			}
+			.para
+			{
+				text-align: center;
+				font-weight: bold;
+				font-family: sans-serif;
+				color: black;
+			}
+
+			 .tbl3 
+			{
+			
+				border-color: black;
+
+				border-width: thick;
+			      width: 70%;
+			      height: 100%;
+			      margin-left: 350px;
+			      margin-top: 90px;
+			      margin-right: auto;
+			      margin-left: auto;
+			      
+			    
+			      text-align: center;
+			      border-collapse: collapse;
+			 }
+			 
+			 tr,td
+			 {
+			 	
+			 	padding: 30px 20px;
+			 	border-top: 1px solid black;
+			 	border: 1px solid black;
+			 	border-width: thick;
+
+			 }
+
+			 th
+			 {
+			 	font-weight: bold;
+			 	font-family: sans-serif;
+			 	font-size: 20px;
+			 	border: 1px solid black;
+			 	
+
+
+			 	/*background-color: #3498db;*/
+			 	padding: 10px 10px; 
+			 
+			 	border-width: thick;
+			 }
+			 td
+			 {
+			 	font-family: sans-serif;
+			 	font-size: 20px;
+			 	
+			 }
+			 .tbl2 .tbl3 a
+			 {
+			 	text-decoration: none;
+			 	border:2px solid black;
+			 	border-radius: 22px;
+			 	padding: 15px 28px;
+			 	font-size: 25px;
+			 	font-family: sans-serif;
+			 	color: black;
+			 }
+			 .tbl2 .tbl3 a:hover
+			 {
+			 	background-color: rgb(0,0,0,0.8);
+			 	color: white;
+			 }
+
+			.foot
+			{
+				font-size: 20px;
+				margin-top: 170px;
+				text-align: center;
+				background-color: #f5f6fa;
+				color: black;
+			}
+
+    /* table, tr, td, th {
+        text-align: center;
+        padding: 20px;
+        border: 1px solid black;
+        height: 10%;
+       
+         
+         
+    }
+    th
+    {
+      font-size: 16px;
+    }
+    td{
+      font-size: 14px;
+      font-weight: bold;
+    }
+    table a
+    {
+      font-size: 20px;
+      color: black;
+    }
+
+    td:hover
+    {
+      background-color: grey;
+    }*/
+
+			
+
+
+			
+@media  (max-width: 704px)
+{
+		body
+			{
+				margin:0;
+				padding: 0;
+				/*background-color: #FFDEE9;
+				background-color: #8EC5FC;
+				background-color: #8EC5FC;
+				background-color: #8EC5FC;*/
+			background: linear-gradient(to right, white ,white, #E0C3FC);
+
+			}
+	
+
+
+
+			.tbl2
+			{
+				margin-left: 20px;
+				width: 90%;
+				}
+			.tbl3
+			{
+				border:none;
+				width: 90%;
+				background-color: white;
+
+			}
+			tr td
+			{
+				/*padding: 30px 30px;*/
+				border:none;
+			}
+			.tbl3  th
+			{
+				display: none;
+
+			}
+			
+			 .tbl3 tr  td
+
+			{
+				display: block;
+				border:1px solid black;
+				width: 100%;
+				font-size: 18px;
+				font-weight: bold;
+				/*border:none;*/
+				
+								
+			}
+			.tbl3 td
+			{
+				text-align: right;
+				padding-left: 50%;
+				position: relative;
+
+
+			}
+			.tbl3 tr
+			{
+				border-bottom: 20px solid white;
+				background-color: #ecf0f1;
+
+
+			}
+			.tbl3 td:before
+			{
+				content: attr(data-label);
+				position: absolute;
+				left: 0;
+				width: 50%;
+				text-align: left;
+				padding-left: 10px;
+				font-size: 20px;
+				font-weight: bold;
+
+
+			}
+			.tbl2 .tbl3 a
+			{
+				margin-left: -400px;
+				margin-bottom: 20px;
+				
+			}
+			
+/*.foot
+			{
+				font-size: 16px;
+				text-align: center;
+				font-family: sans-serif;
+				margin-top: -80px;
+				
+			}	*/
+			
+
+
+
+			
+			
+}			
